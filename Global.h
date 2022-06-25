@@ -33,8 +33,8 @@ void PushProduct(Stack* ps, Product p);
 int StackEmpty(Stack* ps);
 void CreateList(List* pl);
 void GetElementFromStack (Stack* ps, Product* Pr);
-void TransferSTL(Stack* ps, List* pl);
-void TransferLTS(Stack* ps, List* pl);
+void TransferSTL(Stack* ps, List* pl);  //Stack To List
+void TransferLTS(Stack* ps, List* pl);  //List To Stack 
 void display(Product p);
 //void ShowBestSeller (List* pl, Stack* ps);
 Product P1, P2, P3, P4, P5;
